@@ -1,0 +1,2556 @@
+/* line 1, ../contifica/scss/style.scss */
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 50, ../contifica/scss/_layout.scss */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 96px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 50, ../contifica/scss/_layout.scss */
+  .container {
+    flex-direction: column;
+    padding: 32px 18px;
+  }
+}
+
+/* line 69, ../contifica/scss/_layout.scss */
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 75, ../contifica/scss/_layout.scss */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 81, ../contifica/scss/_layout.scss */
+.flex-column {
+  flex-direction: column;
+}
+
+/* line 85, ../contifica/scss/_layout.scss */
+.relative {
+  position: relative;
+}
+
+/* line 89, ../contifica/scss/_layout.scss */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* line 94, ../contifica/scss/_layout.scss */
+.flex-item-1 {
+  flex: 1 1 360px;
+}
+
+/* line 98, ../contifica/scss/_layout.scss */
+.flex-item-2 {
+  flex: 2 1 360px;
+}
+
+/* line 102, ../contifica/scss/_layout.scss */
+.flex-item-3 {
+  flex: 3 1 360px;
+}
+
+/* line 106, ../contifica/scss/_layout.scss */
+.flex-item-4 {
+  flex: 4 1 360px;
+}
+
+/* line 110, ../contifica/scss/_layout.scss */
+.flex-item-5 {
+  flex: 5 1 360px;
+}
+
+/* line 114, ../contifica/scss/_layout.scss */
+.flex-item-auto {
+  flex: 2 1 auto;
+}
+
+/* line 118, ../contifica/scss/_layout.scss */
+.w-auto {
+  width: auto;
+}
+
+/* line 122, ../contifica/scss/_layout.scss */
+.w-100 {
+  width: 100%;
+}
+
+/* line 126, ../contifica/scss/_layout.scss */
+.w-75 {
+  width: 75%;
+}
+
+/* line 130, ../contifica/scss/_layout.scss */
+.w-50 {
+  width: 50%;
+}
+
+/* line 134, ../contifica/scss/_layout.scss */
+.w-25 {
+  width: 25%;
+}
+
+/* line 138, ../contifica/scss/_layout.scss */
+.hidden {
+  overflow: hidden;
+}
+
+/* line 144, ../contifica/scss/_layout.scss */
+.hero {
+  height: 90vh;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 144, ../contifica/scss/_layout.scss */
+  .hero {
+    height: auto;
+  }
+}
+
+/* line 153, ../contifica/scss/_layout.scss */
+.bg-home {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+/* line 163, ../contifica/scss/_layout.scss */
+.svg-bg-home {
+  width: 150%;
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 163, ../contifica/scss/_layout.scss */
+  .svg-bg-home {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /* line 163, ../contifica/scss/_layout.scss */
+  .svg-bg-home {
+    width: 150%;
+  }
+}
+
+/* line 174, ../contifica/scss/_layout.scss */
+.hero {
+  height: 90vh;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 174, ../contifica/scss/_layout.scss */
+  .hero {
+    height: auto;
+  }
+}
+
+/* line 182, ../contifica/scss/_layout.scss */
+.best {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50px;
+  background-color: #F7F2FA;
+}
+
+/* line 192, ../contifica/scss/_layout.scss */
+.best::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 124px;
+  height: 32px;
+  background-image: url("../svg/entail.svg");
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 182, ../contifica/scss/_layout.scss */
+  .best {
+    flex-direction: column;
+  }
+}
+
+/* line 212, ../contifica/scss/_layout.scss */
+.best-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 16px 16px;
+  margin: 8px 0px;
+  position: relative;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 212, ../contifica/scss/_layout.scss */
+  .best-item {
+    justify-content: center;
+    align-items: center;
+  }
+  /* line 227, ../contifica/scss/_layout.scss */
+  .best-item p {
+    text-align: center;
+  }
+}
+
+/* line 233, ../contifica/scss/_layout.scss */
+.bg-invite {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 245, ../contifica/scss/_layout.scss */
+.svg-bg-invite {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 245, ../contifica/scss/_layout.scss */
+  .svg-bg-invite {
+    width: 150%;
+  }
+}
+
+/* line 256, ../contifica/scss/_layout.scss */
+.invite {
+  height: 90vh;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 256, ../contifica/scss/_layout.scss */
+  .invite {
+    height: auto;
+  }
+}
+
+/* line 266, ../contifica/scss/_layout.scss */
+.dropshadow {
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+}
+
+/* line 270, ../contifica/scss/_layout.scss */
+.icon {
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+/* line 275, ../contifica/scss/_layout.scss */
+.icon:hover {
+  transform: scale(1.05);
+}
+
+/* line 280, ../contifica/scss/_layout.scss */
+.list {
+  margin-top: 36px;
+}
+
+/* line 284, ../contifica/scss/_layout.scss */
+.list-item {
+  list-style: none;
+  position: relative;
+  padding: 8px 8px 8px 72px;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 284, ../contifica/scss/_layout.scss */
+  .list-item {
+    margin-bottom: 32px;
+  }
+}
+
+/* line 295, ../contifica/scss/_layout.scss */
+.list-item::after {
+  position: absolute;
+  top: 0;
+  left: -8px;
+  content: "";
+  width: 64px;
+  height: 64px;
+}
+
+/* line 108, ../contifica/scss/_typography.scss */
+h1 {
+  color: #161617;
+  font-family: 'Sora', sans-serif;
+  font-size: 64px;
+  line-height: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 108, ../contifica/scss/_typography.scss */
+  h1 {
+    font-family: 'Sora', sans-serif;
+    font-size: 36px;
+    line-height: 120%;
+  }
+}
+
+/* line 117, ../contifica/scss/_typography.scss */
+h2 {
+  color: #161617;
+  font-family: 'Sora', sans-serif;
+  font-size: 52px;
+  line-height: 110%;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 117, ../contifica/scss/_typography.scss */
+  h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 36px;
+    line-height: 120%;
+  }
+}
+
+/* line 126, ../contifica/scss/_typography.scss */
+h3 {
+  color: #161617;
+  font-family: 'Sora', sans-serif;
+  font-size: 36px;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 126, ../contifica/scss/_typography.scss */
+  h3 {
+    font-family: 'Sora', sans-serif;
+    font-size: 24px;
+    line-height: 120%;
+  }
+}
+
+/* line 135, ../contifica/scss/_typography.scss */
+h4 {
+  color: #161617;
+  font-family: 'Sora', sans-serif;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 135, ../contifica/scss/_typography.scss */
+  h4 {
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+  }
+}
+
+/* line 144, ../contifica/scss/_typography.scss */
+h5 {
+  text-transform: uppercase;
+  background: linear-gradient(181deg, #82269E 23.92%, #1192D7 100.25%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  color: #161617;
+  font-family: 'Sora', sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 144, ../contifica/scss/_typography.scss */
+  h5 {
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+/* line 160, ../contifica/scss/_typography.scss */
+p {
+  color: #666566;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 160, ../contifica/scss/_typography.scss */
+  p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+
+/* line 170, ../contifica/scss/_typography.scss */
+.bold {
+  font-weight: bold;
+  color: #353436;
+}
+
+/* line 175, ../contifica/scss/_typography.scss */
+strong {
+  color: #161617;
+  font-family: 'Sora', sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 175, ../contifica/scss/_typography.scss */
+  strong {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+
+/* line 184, ../contifica/scss/_typography.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 1, ../contifica/scss/_buttons.scss */
+a {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  text-decoration: none;
+  color: #232224;
+  transition: .5s ease;
+}
+
+/* line 7, ../contifica/scss/_buttons.scss */
+a:hover {
+  opacity: .9;
+}
+
+/* line 12, ../contifica/scss/_buttons.scss */
+.btn {
+  background: linear-gradient(205deg, #82269E 23.92%, #1192D7 100.11%);
+  border-radius: 16px;
+  padding: 16px 32px;
+  transition: .3s ease;
+  color: #FEFBFF;
+  box-shadow: 0px 1.94738px 2.71728px 0px hwb(201 7% 16%/0.051), 0px 5.38427px 7.51293px 0px rgba(169, 80, 196, 0.07), 0px 12.96324px 18.08824px 0px rgba(169, 80, 196, 0.09), 0px 43px 60px 0px rgba(169, 80, 196, 0.14);
+}
+
+/* line 22, ../contifica/scss/_buttons.scss */
+.btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 1.94738px 2.71728px 0px rgba(169, 80, 196, 0.08), 0px 5.38427px 7.51293px 0px rgba(169, 80, 196, 0.12), 0px 12.96324px 18.08824px 0px rgba(169, 80, 196, 0.16), 0px 43px 60px 0px rgba(169, 80, 196, 0.24);
+}
+
+/* line 27, ../contifica/scss/_buttons.scss */
+.link {
+  display: inline-block;
+  color: #82269E;
+  background-image: url("../svg/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  font-size: 18px;
+  transition: 0.5s ease;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  padding-right: 16px;
+  position: relative;
+}
+
+/* line 45, ../contifica/scss/_buttons.scss */
+.link:after {
+  content: "";
+  position: absolute;
+  top: 75%;
+  left: 56px;
+  width: 0%;
+  height: 2px;
+  z-index: -1;
+  transition: 0.5s ease;
+  background-color: #2AAAEE;
+}
+
+/* line 60, ../contifica/scss/_buttons.scss */
+.link:hover {
+  opacity: 0.8;
+  padding-left: 64px;
+  background-position: 8px 50%;
+}
+
+/* line 65, ../contifica/scss/_buttons.scss */
+.link:hover:after {
+  width: 90%;
+}
+
+/* line 71, ../contifica/scss/_buttons.scss */
+.button {
+  transition: 0.5s ease;
+}
+
+/* line 73, ../contifica/scss/_buttons.scss */
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* line 18, ../contifica/scss/_spacing.scss */
+.s-0 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 23, ../contifica/scss/_spacing.scss */
+.m-0 {
+  margin: 0;
+}
+
+/* line 27, ../contifica/scss/_spacing.scss */
+.m-1 {
+  margin: 0.5rem;
+}
+
+/* line 31, ../contifica/scss/_spacing.scss */
+.m-2 {
+  margin: 1rem;
+}
+
+/* line 35, ../contifica/scss/_spacing.scss */
+.m-3 {
+  margin: 1.5rem;
+}
+
+/* line 39, ../contifica/scss/_spacing.scss */
+.m-4 {
+  margin: 2rem;
+}
+
+/* line 43, ../contifica/scss/_spacing.scss */
+.m-5 {
+  margin: 3rem;
+}
+
+/* line 47, ../contifica/scss/_spacing.scss */
+.m-6 {
+  margin: 4rem;
+}
+
+/* line 51, ../contifica/scss/_spacing.scss */
+.m-7 {
+  margin: 4.5rem;
+}
+
+/* line 55, ../contifica/scss/_spacing.scss */
+.m-8 {
+  margin: 6rem;
+}
+
+/* line 59, ../contifica/scss/_spacing.scss */
+.m-9 {
+  margin: 8rem;
+}
+
+/* line 65, ../contifica/scss/_spacing.scss */
+.mt-0 {
+  margin-top: 0;
+}
+
+/* line 69, ../contifica/scss/_spacing.scss */
+.mt-1 {
+  margin-top: 0.5rem;
+}
+
+/* line 73, ../contifica/scss/_spacing.scss */
+.mt-2 {
+  margin-top: 1rem;
+}
+
+/* line 77, ../contifica/scss/_spacing.scss */
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
+/* line 81, ../contifica/scss/_spacing.scss */
+.mt-4 {
+  margin-top: 2rem;
+}
+
+/* line 85, ../contifica/scss/_spacing.scss */
+.mt-5 {
+  margin-top: 3rem;
+}
+
+/* line 89, ../contifica/scss/_spacing.scss */
+.mt-6 {
+  margin-top: 4rem;
+}
+
+/* line 93, ../contifica/scss/_spacing.scss */
+.mt-7 {
+  margin-top: 4.5rem;
+}
+
+/* line 97, ../contifica/scss/_spacing.scss */
+.mt-8 {
+  margin-top: 6rem;
+}
+
+/* line 101, ../contifica/scss/_spacing.scss */
+.mt-9 {
+  margin-top: 8rem;
+}
+
+/* line 106, ../contifica/scss/_spacing.scss */
+.ml-0 {
+  margin-left: 0;
+}
+
+/* line 110, ../contifica/scss/_spacing.scss */
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+/* line 114, ../contifica/scss/_spacing.scss */
+.ml-2 {
+  margin-left: 1rem;
+}
+
+/* line 118, ../contifica/scss/_spacing.scss */
+.ml-3 {
+  margin-left: 1.5rem;
+}
+
+/* line 122, ../contifica/scss/_spacing.scss */
+.ml-4 {
+  margin-left: 2rem;
+}
+
+/* line 126, ../contifica/scss/_spacing.scss */
+.ml-5 {
+  margin-left: 3rem;
+}
+
+/* line 130, ../contifica/scss/_spacing.scss */
+.ml-6 {
+  margin-left: 4rem;
+}
+
+/* line 134, ../contifica/scss/_spacing.scss */
+.ml-7 {
+  margin-left: 4.5rem;
+}
+
+/* line 138, ../contifica/scss/_spacing.scss */
+.ml-8 {
+  margin-left: 6rem;
+}
+
+/* line 142, ../contifica/scss/_spacing.scss */
+.ml-9 {
+  margin-left: 8rem;
+}
+
+/* line 147, ../contifica/scss/_spacing.scss */
+.mr-0 {
+  margin-right: 0;
+}
+
+/* line 151, ../contifica/scss/_spacing.scss */
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+/* line 155, ../contifica/scss/_spacing.scss */
+.mr-2 {
+  margin-right: 1rem;
+}
+
+/* line 159, ../contifica/scss/_spacing.scss */
+.mr-3 {
+  margin-right: 1.5rem;
+}
+
+/* line 163, ../contifica/scss/_spacing.scss */
+.mr-4 {
+  margin-right: 2rem;
+}
+
+/* line 167, ../contifica/scss/_spacing.scss */
+.mr-5 {
+  margin-right: 3rem;
+}
+
+/* line 171, ../contifica/scss/_spacing.scss */
+.mr-6 {
+  margin-right: 4rem;
+}
+
+/* line 175, ../contifica/scss/_spacing.scss */
+.mr-7 {
+  margin-right: 4.5rem;
+}
+
+/* line 179, ../contifica/scss/_spacing.scss */
+.mr-8 {
+  margin-right: 6rem;
+}
+
+/* line 183, ../contifica/scss/_spacing.scss */
+.mr-9 {
+  margin-right: 8rem;
+}
+
+/* line 188, ../contifica/scss/_spacing.scss */
+.mb-0 {
+  margin-bottom: 0;
+}
+
+/* line 192, ../contifica/scss/_spacing.scss */
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+/* line 196, ../contifica/scss/_spacing.scss */
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+/* line 200, ../contifica/scss/_spacing.scss */
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+/* line 204, ../contifica/scss/_spacing.scss */
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+/* line 208, ../contifica/scss/_spacing.scss */
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+/* line 212, ../contifica/scss/_spacing.scss */
+.mb-6 {
+  margin-bottom: 4rem;
+}
+
+/* line 216, ../contifica/scss/_spacing.scss */
+.mb-7 {
+  margin-bottom: 4.5rem;
+}
+
+/* line 220, ../contifica/scss/_spacing.scss */
+.mb-8 {
+  margin-bottom: 6rem;
+}
+
+/* line 224, ../contifica/scss/_spacing.scss */
+.mb-9 {
+  margin-bottom: 8rem;
+}
+
+/* line 229, ../contifica/scss/_spacing.scss */
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 234, ../contifica/scss/_spacing.scss */
+.mx-1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* line 239, ../contifica/scss/_spacing.scss */
+.mx-2 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* line 244, ../contifica/scss/_spacing.scss */
+.mx-3 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+/* line 249, ../contifica/scss/_spacing.scss */
+.mx-4 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* line 254, ../contifica/scss/_spacing.scss */
+.mx-5 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+/* line 259, ../contifica/scss/_spacing.scss */
+.mx-6 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+/* line 264, ../contifica/scss/_spacing.scss */
+.mx-7 {
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+}
+
+/* line 269, ../contifica/scss/_spacing.scss */
+.mx-8 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+/* line 274, ../contifica/scss/_spacing.scss */
+.mx-9 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+/* line 280, ../contifica/scss/_spacing.scss */
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 285, ../contifica/scss/_spacing.scss */
+.my-1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 290, ../contifica/scss/_spacing.scss */
+.my-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* line 295, ../contifica/scss/_spacing.scss */
+.my-3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* line 300, ../contifica/scss/_spacing.scss */
+.my-4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* line 305, ../contifica/scss/_spacing.scss */
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* line 310, ../contifica/scss/_spacing.scss */
+.my-6 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/* line 315, ../contifica/scss/_spacing.scss */
+.my-7 {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+}
+
+/* line 320, ../contifica/scss/_spacing.scss */
+.my-8 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+/* line 325, ../contifica/scss/_spacing.scss */
+.my-9 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+/* line 331, ../contifica/scss/_spacing.scss */
+.p-0 {
+  padding: 0;
+}
+
+/* line 335, ../contifica/scss/_spacing.scss */
+.p-1 {
+  padding: 0.5rem;
+}
+
+/* line 339, ../contifica/scss/_spacing.scss */
+.p-2 {
+  padding: 1rem;
+}
+
+/* line 343, ../contifica/scss/_spacing.scss */
+.p-3 {
+  padding: 1.5rem;
+}
+
+/* line 347, ../contifica/scss/_spacing.scss */
+.p-4 {
+  padding: 2rem;
+}
+
+/* line 351, ../contifica/scss/_spacing.scss */
+.p-5 {
+  padding: 3rem;
+}
+
+/* line 355, ../contifica/scss/_spacing.scss */
+.p-6 {
+  padding: 4rem;
+}
+
+/* line 359, ../contifica/scss/_spacing.scss */
+.p-7 {
+  padding: 4.5rem;
+}
+
+/* line 363, ../contifica/scss/_spacing.scss */
+.p-8 {
+  padding: 6rem;
+}
+
+/* line 367, ../contifica/scss/_spacing.scss */
+.p-9 {
+  padding: 8rem;
+}
+
+/* line 371, ../contifica/scss/_spacing.scss */
+.p-10 {
+  padding: 10.5rem;
+}
+
+/* line 375, ../contifica/scss/_spacing.scss */
+.p-11 {
+  padding: 13.5rem;
+}
+
+/* line 379, ../contifica/scss/_spacing.scss */
+.p-12 {
+  padding: 17rem;
+}
+
+/* line 383, ../contifica/scss/_spacing.scss */
+.p-13 {
+  padding: 21rem;
+}
+
+/* line 387, ../contifica/scss/_spacing.scss */
+.p-14 {
+  padding: 25.5rem;
+}
+
+/* line 391, ../contifica/scss/_spacing.scss */
+.p-15 {
+  padding: 30.5rem;
+}
+
+/* line 396, ../contifica/scss/_spacing.scss */
+.pt-0 {
+  padding-top: 0;
+}
+
+/* line 400, ../contifica/scss/_spacing.scss */
+.pt-1 {
+  padding-top: 0.5rem;
+}
+
+/* line 404, ../contifica/scss/_spacing.scss */
+.pt-2 {
+  padding-top: 1rem;
+}
+
+/* line 408, ../contifica/scss/_spacing.scss */
+.pt-3 {
+  padding-top: 1.5rem;
+}
+
+/* line 412, ../contifica/scss/_spacing.scss */
+.pt-4 {
+  padding-top: 2rem;
+}
+
+/* line 416, ../contifica/scss/_spacing.scss */
+.pt-5 {
+  padding-top: 3rem;
+}
+
+/* line 420, ../contifica/scss/_spacing.scss */
+.pt-6 {
+  padding-top: 4rem;
+}
+
+/* line 424, ../contifica/scss/_spacing.scss */
+.pt-7 {
+  padding-top: 4.5rem;
+}
+
+/* line 428, ../contifica/scss/_spacing.scss */
+.pt-8 {
+  padding-top: 6rem;
+}
+
+/* line 432, ../contifica/scss/_spacing.scss */
+.pt-9 {
+  padding-top: 8rem;
+}
+
+/* line 438, ../contifica/scss/_spacing.scss */
+.pl-0 {
+  padding-left: 0;
+}
+
+/* line 442, ../contifica/scss/_spacing.scss */
+.pl-1 {
+  padding-left: 0.5rem;
+}
+
+/* line 446, ../contifica/scss/_spacing.scss */
+.pl-2 {
+  padding-left: 1rem;
+}
+
+/* line 450, ../contifica/scss/_spacing.scss */
+.pl-3 {
+  padding-left: 1.5rem;
+}
+
+/* line 454, ../contifica/scss/_spacing.scss */
+.pl-4 {
+  padding-left: 2rem;
+}
+
+/* line 458, ../contifica/scss/_spacing.scss */
+.pl-5 {
+  padding-left: 3rem;
+}
+
+/* line 462, ../contifica/scss/_spacing.scss */
+.pl-6 {
+  padding-left: 4rem;
+}
+
+/* line 466, ../contifica/scss/_spacing.scss */
+.pl-7 {
+  padding-left: 4.5rem;
+}
+
+/* line 470, ../contifica/scss/_spacing.scss */
+.pl-8 {
+  padding-left: 6rem;
+}
+
+/* line 474, ../contifica/scss/_spacing.scss */
+.pl-9 {
+  padding-left: 8rem;
+}
+
+/* line 478, ../contifica/scss/_spacing.scss */
+.pl-10 {
+  padding-left: 10.5rem;
+}
+
+/* line 482, ../contifica/scss/_spacing.scss */
+.pl-11 {
+  padding-left: 13.5rem;
+}
+
+/* line 486, ../contifica/scss/_spacing.scss */
+.pl-12 {
+  padding-left: 17rem;
+}
+
+/* line 490, ../contifica/scss/_spacing.scss */
+.pl-13 {
+  padding-left: 21rem;
+}
+
+/* line 494, ../contifica/scss/_spacing.scss */
+.pl-14 {
+  padding-left: 25.5rem;
+}
+
+/* line 498, ../contifica/scss/_spacing.scss */
+.pl-15 {
+  padding-left: 30.5rem;
+}
+
+/* line 503, ../contifica/scss/_spacing.scss */
+.pr-0 {
+  padding-right: 0;
+}
+
+/* line 507, ../contifica/scss/_spacing.scss */
+.pr-1 {
+  padding-right: 0.5rem;
+}
+
+/* line 511, ../contifica/scss/_spacing.scss */
+.pr-2 {
+  padding-right: 1rem;
+}
+
+/* line 515, ../contifica/scss/_spacing.scss */
+.pr-3 {
+  padding-right: 1.5rem;
+}
+
+/* line 519, ../contifica/scss/_spacing.scss */
+.pr-4 {
+  padding-right: 2rem;
+}
+
+/* line 523, ../contifica/scss/_spacing.scss */
+.pr-5 {
+  padding-right: 3rem;
+}
+
+/* line 527, ../contifica/scss/_spacing.scss */
+.pr-6 {
+  padding-right: 4rem;
+}
+
+/* line 531, ../contifica/scss/_spacing.scss */
+.pr-7 {
+  padding-right: 4.5rem;
+}
+
+/* line 535, ../contifica/scss/_spacing.scss */
+.pr-8 {
+  padding-right: 6rem;
+}
+
+/* line 539, ../contifica/scss/_spacing.scss */
+.pr-9 {
+  padding-right: 8rem;
+}
+
+/* line 543, ../contifica/scss/_spacing.scss */
+.pr-10 {
+  padding-right: 10.5rem;
+}
+
+/* line 547, ../contifica/scss/_spacing.scss */
+.pr-11 {
+  padding-right: 13.5rem;
+}
+
+/* line 551, ../contifica/scss/_spacing.scss */
+.pr-12 {
+  padding-right: 17rem;
+}
+
+/* line 555, ../contifica/scss/_spacing.scss */
+.pr-13 {
+  padding-right: 21rem;
+}
+
+/* line 559, ../contifica/scss/_spacing.scss */
+.pr-14 {
+  padding-right: 25.5rem;
+}
+
+/* line 563, ../contifica/scss/_spacing.scss */
+.pr-15 {
+  padding-right: 30.5rem;
+}
+
+/* line 568, ../contifica/scss/_spacing.scss */
+.pb-0 {
+  padding-bottom: 0;
+}
+
+/* line 572, ../contifica/scss/_spacing.scss */
+.pb-1 {
+  padding-bottom: 0.5rem;
+}
+
+/* line 576, ../contifica/scss/_spacing.scss */
+.pb-2 {
+  padding-bottom: 1rem;
+}
+
+/* line 580, ../contifica/scss/_spacing.scss */
+.pb-3 {
+  padding-bottom: 1.5rem;
+}
+
+/* line 584, ../contifica/scss/_spacing.scss */
+.pb-4 {
+  padding-bottom: 2rem;
+}
+
+/* line 588, ../contifica/scss/_spacing.scss */
+.pb-5 {
+  padding-bottom: 3rem;
+}
+
+/* line 592, ../contifica/scss/_spacing.scss */
+.pb-6 {
+  padding-bottom: 4rem;
+}
+
+/* line 596, ../contifica/scss/_spacing.scss */
+.pb-7 {
+  padding-bottom: 4.5rem;
+}
+
+/* line 600, ../contifica/scss/_spacing.scss */
+.pb-8 {
+  padding-bottom: 6rem;
+}
+
+/* line 604, ../contifica/scss/_spacing.scss */
+.pb-9 {
+  padding-bottom: 8rem;
+}
+
+/* line 608, ../contifica/scss/_spacing.scss */
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 613, ../contifica/scss/_spacing.scss */
+.px-1 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* line 618, ../contifica/scss/_spacing.scss */
+.px-2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* line 623, ../contifica/scss/_spacing.scss */
+.px-3 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* line 628, ../contifica/scss/_spacing.scss */
+.px-4 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* line 633, ../contifica/scss/_spacing.scss */
+.px-5 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* line 638, ../contifica/scss/_spacing.scss */
+.px-6 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/* line 643, ../contifica/scss/_spacing.scss */
+.px-7 {
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+/* line 648, ../contifica/scss/_spacing.scss */
+.px-8 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+/* line 653, ../contifica/scss/_spacing.scss */
+.px-9 {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+/* line 659, ../contifica/scss/_spacing.scss */
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 664, ../contifica/scss/_spacing.scss */
+.py-1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* line 669, ../contifica/scss/_spacing.scss */
+.py-2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* line 674, ../contifica/scss/_spacing.scss */
+.py-3 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* line 679, ../contifica/scss/_spacing.scss */
+.py-4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 684, ../contifica/scss/_spacing.scss */
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* line 689, ../contifica/scss/_spacing.scss */
+.py-6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* line 694, ../contifica/scss/_spacing.scss */
+.py-7 {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+/* line 699, ../contifica/scss/_spacing.scss */
+.py-8 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/* line 704, ../contifica/scss/_spacing.scss */
+.py-9 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+/* line 13, ../contifica/scss/style.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 17, ../contifica/scss/style.scss */
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+  background-color: #EDEAEF;
+}
+
+/* line 28, ../contifica/scss/style.scss */
+svg, img {
+  display: block;
+  width: 100%;
+}
+
+/* line 32, ../contifica/scss/style.scss */
+.border {
+  border: 1px solid red;
+}
+
+/* line 1, ../contifica/scss/_menu.scss */
+header {
+  width: 100%;
+  background-color: transparent;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  transition: .5s ease;
+  position: fixed;
+  z-index: 999;
+}
+
+/* line 12, ../contifica/scss/_menu.scss */
+.active-header {
+  background-color: #F7F2FA;
+  box-shadow: 0px 2.30969px 3.62304px 0px rgba(169, 80, 196, 0.03), 0px 6.38599px 10.01724px 0px rgba(169, 80, 196, 0.04), 0px 15.37501px 24.11766px 0px rgba(169, 80, 196, 0.05), 0px 51px 80px 0px rgba(169, 80, 196, 0.08);
+}
+
+/* line 19, ../contifica/scss/_menu.scss */
+.navbar-desktop {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 19, ../contifica/scss/_menu.scss */
+  .navbar-desktop {
+    display: none;
+  }
+}
+
+/* line 33, ../contifica/scss/_menu.scss */
+.logo {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* line 44, ../contifica/scss/_menu.scss */
+.navbar-desktop-item-1 {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 52, ../contifica/scss/_menu.scss */
+.navbar-desktop-item-2 {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* line 60, ../contifica/scss/_menu.scss */
+.menu-desktop {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 60, ../contifica/scss/_menu.scss */
+  .menu-desktop {
+    display: none;
+  }
+}
+
+/* line 71, ../contifica/scss/_menu.scss */
+.menu-desktop .menu-item {
+  position: relative;
+  margin-left: 16px;
+}
+
+/* line 78, ../contifica/scss/_menu.scss */
+.nav-link-desktop {
+  display: inline-block;
+  padding: 12px 16px;
+  position: relative;
+}
+
+/* line 84, ../contifica/scss/_menu.scss */
+.nav-link-desktop::after {
+  content: '';
+  position: absolute;
+  top: 42%;
+  right: -3px;
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+  border-radius: 1px;
+  transition: .2s linear;
+  border-bottom: 2px solid #1192D7;
+  border-right: 2px solid #82269E;
+}
+
+/* line 101, ../contifica/scss/_menu.scss */
+.nav-link-desktop:hover {
+  opacity: .7;
+}
+
+/* line 104, ../contifica/scss/_menu.scss */
+.nav-link-desktop:hover::after {
+  top: 45%;
+}
+
+/* line 110, ../contifica/scss/_menu.scss */
+.dropdown-menu {
+  background-color: #FEFBFF;
+  border-radius: 16px;
+  padding: 16px 24px;
+  box-shadow: 0px 2.30969px 3.62304px 0px rgba(169, 80, 196, 0.03), 0px 6.38599px 10.01724px 0px rgba(169, 80, 196, 0.04), 0px 15.37501px 24.11766px 0px rgba(169, 80, 196, 0.05), 0px 51px 80px 0px rgba(169, 80, 196, 0.08);
+  list-style: none;
+  position: absolute;
+  top: 48px;
+  left: 24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: .7s ease;
+}
+
+/* line 133, ../contifica/scss/_menu.scss */
+.dropdown-menu .dropdown-item {
+  width: 100%;
+}
+
+/* line 138, ../contifica/scss/_menu.scss */
+.active-dropdown-menu {
+  pointer-events: all;
+  opacity: 1;
+}
+
+/* line 143, ../contifica/scss/_menu.scss */
+.nav-link-dropdown {
+  display: inline-block;
+  width: 100%;
+  padding: 8px 16px;
+  position: relative;
+}
+
+/* line 151, ../contifica/scss/_menu.scss */
+.nav-link-dropdown::after {
+  content: '';
+  position: absolute;
+  top: 90%;
+  left: 0;
+  transition: .5s ease;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(205deg, #82269E 23.92%, #1192D7 100.11%);
+}
+
+/* line 164, ../contifica/scss/_menu.scss */
+.nav-link-dropdown:hover {
+  opacity: .7;
+}
+
+/* line 166, ../contifica/scss/_menu.scss */
+.nav-link-dropdown:hover::after {
+  width: 100%;
+}
+
+/* line 175, ../contifica/scss/_menu.scss */
+.navbar-mobile {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 175, ../contifica/scss/_menu.scss */
+  .navbar-mobile {
+    display: flex;
+  }
+}
+
+/* line 191, ../contifica/scss/_menu.scss */
+.bx {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  cursor: pointer;
+  z-index: 999;
+  transition: .7s ease;
+}
+
+/* line 201, ../contifica/scss/_menu.scss */
+.bx::after {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 17%;
+  width: 70%;
+  height: 2px;
+  border-radius: 2px;
+  transition: .7s ease;
+  background-color: #82269E;
+}
+
+/* line 215, ../contifica/scss/_menu.scss */
+.bx::before {
+  content: '';
+  position: absolute;
+  top: 64%;
+  left: 17%;
+  width: 70%;
+  height: 2px;
+  transition: .7s ease;
+  background-color: #82269E;
+}
+
+/* line 229, ../contifica/scss/_menu.scss */
+.active-bx {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  cursor: pointer;
+  z-index: 999;
+  transition: .7s ease;
+}
+
+/* line 237, ../contifica/scss/_menu.scss */
+.active-bx::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  transform: rotate(-135deg);
+  width: 70%;
+  height: 2px;
+  background-color: #82269E;
+}
+
+/* line 251, ../contifica/scss/_menu.scss */
+.active-bx::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  transform: rotate(315deg);
+  width: 70%;
+  height: 2px;
+  background-color: #82269E;
+}
+
+/* line 265, ../contifica/scss/_menu.scss */
+.menu-mobile {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F7F2FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate3d(0, -100px, 0);
+}
+
+/* line 281, ../contifica/scss/_menu.scss */
+.active-menu-mobile {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* line 286, ../contifica/scss/_menu.scss */
+.nav-list-mobile {
+  max-width: 1440px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 293, ../contifica/scss/_menu.scss */
+.nav-list-mobile svg {
+  width: 36px;
+  height: 36px;
+}
+
+/* line 297, ../contifica/scss/_menu.scss */
+.nav-list-mobile svg path {
+  stroke: #A6A6A7;
+  transition: .7s ease;
+}
+
+/* line 303, ../contifica/scss/_menu.scss */
+.nav-list-mobile svg:hover path {
+  stroke: #82269E;
+}
+
+/* line 311, ../contifica/scss/_menu.scss */
+.nav-link-mobile {
+  display: inline-block;
+  font-family: 'Sora', sans-serif;
+  font-size: 36px;
+  line-height: 120%;
+  color: #555456;
+  padding: 16px 24px;
+  position: relative;
+}
+
+/* line 320, ../contifica/scss/_menu.scss */
+.nav-link-mobile::after {
+  content: '';
+  position: absolute;
+  top: 90%;
+  left: 16px;
+  width: 0%;
+  height: 2px;
+  transition: 1s ease;
+  background: linear-gradient(205deg, #82269E 23.92%, #1192D7 100.11%);
+}
+
+/* line 333, ../contifica/scss/_menu.scss */
+.nav-link-mobile:hover {
+  color: #82269E;
+}
+
+/* line 336, ../contifica/scss/_menu.scss */
+.nav-link-mobile:hover::after {
+  width: 95%;
+}
+
+/* line 1, ../contifica/scss/_swiper.scss */
+.box {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+/* line 8, ../contifica/scss/_swiper.scss */
+.container-swiper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 96px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+
+/* line 22, ../contifica/scss/_swiper.scss */
+.button-next {
+  position: absolute;
+  right: 32px;
+  top: 24px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background-image: url("../svg/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 35, ../contifica/scss/_swiper.scss */
+.button-prev {
+  position: absolute;
+  right: 88px;
+  top: 24px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background-image: url("../svg/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: rotate(180deg);
+}
+
+/* line 49, ../contifica/scss/_swiper.scss */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* line 56, ../contifica/scss/_swiper.scss */
+.swiper-slide {
+  max-width: 420px;
+  padding: 24px 36px;
+  border-radius: 50px;
+  background-color: #F7F2FA;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* line 70, ../contifica/scss/_swiper.scss */
+.photo-profile {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #82269E;
+  background-color: #9C4FB4;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 81, ../contifica/scss/_swiper.scss */
+.photo-1 {
+  background-image: url("../img/people1.png");
+}
+
+/* line 85, ../contifica/scss/_swiper.scss */
+.photo-2 {
+  background-image: url("../img/people2.png");
+}
+
+/* line 89, ../contifica/scss/_swiper.scss */
+.photo-3 {
+  background-image: url("../img/people3.png");
+}
+
+/* line 93, ../contifica/scss/_swiper.scss */
+.photo-4 {
+  background-image: url("../img/people4.png");
+}
+
+/* line 97, ../contifica/scss/_swiper.scss */
+.photo-5 {
+  background-image: url("../img/people5.png");
+}
+
+/* line 101, ../contifica/scss/_swiper.scss */
+.photo-6 {
+  background-image: url("../img/people6.png");
+}
+
+/* line 1, ../contifica/scss/_icons.scss */
+.dropshadow {
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+}
+
+/* line 5, ../contifica/scss/_icons.scss */
+.bg-icon-mobile::after {
+  background-image: url("../svg/icon-mobile.svg");
+  background-size: cover;
+  transition: 0.5s ease;
+  cursor: pointer;
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+}
+
+/* line 14, ../contifica/scss/_icons.scss */
+.bg-icon-mobile:hover::after {
+  transform: scale(1.05);
+}
+
+/* line 21, ../contifica/scss/_icons.scss */
+.bg-icon-time::after {
+  background-image: url("../svg/icon-time.svg");
+  background-size: cover;
+  transition: 0.5s ease;
+  cursor: pointer;
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+}
+
+/* line 29, ../contifica/scss/_icons.scss */
+.bg-icon-time:hover::after {
+  transform: scale(1.05);
+}
+
+/* line 36, ../contifica/scss/_icons.scss */
+.bg-icon-config::after {
+  background-image: url("../svg/icon-config.svg");
+  background-size: cover;
+  transition: 0.5s ease;
+  cursor: pointer;
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+}
+
+/* line 44, ../contifica/scss/_icons.scss */
+.bg-icon-config:hover::after {
+  transform: scale(1.05);
+}
+
+/* line 51, ../contifica/scss/_icons.scss */
+.bg-icon-contactless::after {
+  background-image: url("../svg/icon-contactless.svg");
+  background-size: cover;
+  transition: 0.5s ease;
+  cursor: pointer;
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+}
+
+/* line 59, ../contifica/scss/_icons.scss */
+.bg-icon-contactless:hover::after {
+  transform: scale(1.05);
+}
+
+/* line 66, ../contifica/scss/_icons.scss */
+.bg-icon-card::after {
+  background-image: url("../svg/icon-card.svg");
+  background-size: cover;
+  transition: 0.5s ease;
+  cursor: pointer;
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+}
+
+/* line 74, ../contifica/scss/_icons.scss */
+.bg-icon-card:hover::after {
+  transform: scale(1.05);
+}
+
+/* line 81, ../contifica/scss/_icons.scss */
+.bg-icon-check::after {
+  background-image: url("../svg/icon-check.svg");
+  background-size: cover;
+  transition: 0.5s ease;
+  cursor: pointer;
+  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+  width: 40px;
+  height: 40px;
+  top: 16px;
+  left: 8px;
+}
+
+/* line 94, ../contifica/scss/_icons.scss */
+.bg-icon-check:hover::after {
+  transform: scale(1.05);
+}
+
+/* line 1, ../contifica/scss/_footer.scss */
+footer {
+  background: linear-gradient(205deg, #82269E 23.92%, #1192D7 100.11%);
+}
+
+/* line 5, ../contifica/scss/_footer.scss */
+.footer-flex-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 10, ../contifica/scss/_footer.scss */
+.footer-flex-1 p {
+  color: #EDEAEF;
+  max-width: 350px;
+}
+
+/* line 16, ../contifica/scss/_footer.scss */
+.footer-flex-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-height: 72px;
+  flex: 1 1 320px;
+}
+
+/* line 25, ../contifica/scss/_footer.scss */
+.footer-flex-2 svg {
+  max-width: 36px;
+}
+
+/* line 4, ../contifica/scss/_animations.scss */
+.div-card {
+  perspective: 900px;
+  position: relative;
+}
+
+/* line 10, ../contifica/scss/_animations.scss */
+.card {
+  width: 340px;
+  height: 217.6px;
+  border-radius: 12px;
+  transform-origin: center center;
+  transform-style: preserve-3d;
+  z-index: -1;
+  animation: flip-card 12s linear infinite alternate, change-bg-card 12s linear infinite alternate;
+}
+
+@keyframes flip-card {
+  0% {
+    transform: rotateX(-10deg) rotateY(10deg) rotateY(-15deg);
+  }
+  40% {
+    transform: rotateX(0deg) rotateY(20deg);
+  }
+  60% {
+    transform: rotateX(180deg) rotateY(20deg);
+  }
+  100% {
+    transform: rotateX(190deg) rotateY(10deg) rotateY(-15deg);
+  }
+}
+
+@keyframes change-bg-card {
+  0%, 49% {
+    background-image: url(../svg/contifica.svg);
+    background-size: cover;
+  }
+  50%, 100% {
+    background-image: url(../svg/contifica-verse.svg);
+    background-size: cover;
+  }
+}
+
+/* line 51, ../contifica/scss/_animations.scss */
+.icon-card-hero {
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  z-index: 200;
+  animation: icons-hero 7s ease 0.5s infinite alternate;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 51, ../contifica/scss/_animations.scss */
+  .icon-card-hero {
+    top: -30px;
+    left: 50px;
+  }
+}
+
+/* line 66, ../contifica/scss/_animations.scss */
+.icon-contactless-hero {
+  position: absolute;
+  top: 270px;
+  left: 30px;
+  z-index: 200;
+  animation: icons-hero 7s ease 1s infinite alternate;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 66, ../contifica/scss/_animations.scss */
+  .icon-contactless-hero {
+    top: 250px;
+    left: 60px;
+  }
+}
+
+/* line 81, ../contifica/scss/_animations.scss */
+.icon-mobile-hero {
+  position: absolute;
+  top: 110px;
+  left: -250px;
+  z-index: 200;
+  animation: icons-hero 7s ease 2.5s infinite alternate;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 81, ../contifica/scss/_animations.scss */
+  .icon-mobile-hero {
+    top: 230px;
+    left: -100px;
+  }
+}
+
+@keyframes icons-hero {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-10px, 40px, 0);
+  }
+}
+
+/* line 105, ../contifica/scss/_animations.scss */
+.contifica-hero {
+  max-width: 50px;
+}
+
+/* line 109, ../contifica/scss/_animations.scss */
+.bg-home-blur1 {
+  transform: translate3d(0, -100px, 0);
+}
+
+/* line 113, ../contifica/scss/_animations.scss */
+.bg-home-blur2 {
+  transform: translate3d(0, -100px, 0);
+}
+
+/* line 117, ../contifica/scss/_animations.scss */
+.bg-home-rect1 {
+  animation: bg-home-rect 3s ease 0s infinite alternate;
+}
+
+/* line 121, ../contifica/scss/_animations.scss */
+.bg-home-rect2 {
+  animation: bg-home-rect 3s ease 0.5s infinite alternate;
+}
+
+/* line 125, ../contifica/scss/_animations.scss */
+.bg-home-rect3 {
+  animation: bg-home-rect 3s ease 1s infinite alternate;
+}
+
+/* line 129, ../contifica/scss/_animations.scss */
+.bg-home-rect4 {
+  animation: bg-home-rect 3s ease 1.5s infinite alternate;
+}
+
+@keyframes bg-home-rect {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 30px, 0);
+  }
+}
+
+/* line 143, ../contifica/scss/_animations.scss */
+.glass,
+.fignu5 {
+  backdrop-filter: blur(5px);
+}
+
+/* line 149, ../contifica/scss/_animations.scss */
+.bg-home-blur2 {
+  transform: translate3d(0, -150px, 0);
+}
+
+/* line 153, ../contifica/scss/_animations.scss */
+.bg-home-blur1 {
+  transform: translate3d(0, -100px, 0);
+}
+
+/* line 157, ../contifica/scss/_animations.scss */
+.bg-home-rect1 {
+  animation: bg-home-rect 3s ease 0s infinite alternate;
+}
+
+/* line 160, ../contifica/scss/_animations.scss */
+.bg-home-rect2 {
+  animation: bg-home-rect 3s ease 0.5s infinite alternate;
+}
+
+/* line 163, ../contifica/scss/_animations.scss */
+.bg-home-rect3 {
+  animation: bg-home-rect 3s ease 1.5s infinite alternate;
+}
+
+/* line 166, ../contifica/scss/_animations.scss */
+.bg-home-rect4 {
+  animation: bg-home-rect 3s ease 2s infinite alternate;
+}
+
+@keyframes bg-home-rect {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 30px, 0);
+  }
+}
+
+/* line 181, ../contifica/scss/_animations.scss */
+.people1 {
+  opacity: 0;
+  animation: people 10s ease 0s infinite;
+}
+
+/* line 186, ../contifica/scss/_animations.scss */
+.people2 {
+  opacity: 0;
+  animation: people 10s ease 5s infinite;
+}
+
+/* line 191, ../contifica/scss/_animations.scss */
+.people3 {
+  opacity: 0;
+  animation: people 10s ease 2s infinite;
+}
+
+/* line 196, ../contifica/scss/_animations.scss */
+.people4 {
+  opacity: 0;
+  animation: people 10s ease 7s infinite;
+}
+
+/* line 201, ../contifica/scss/_animations.scss */
+.people5 {
+  opacity: 0;
+  animation: people 10s ease 3s infinite;
+}
+
+/* line 206, ../contifica/scss/_animations.scss */
+.people6 {
+  opacity: 0;
+  animation: people 10s ease 8s infinite;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 211, ../contifica/scss/_animations.scss */
+  .img-people2 {
+    display: none;
+  }
+}
+
+@keyframes people {
+  0% {
+    opacity: 0;
+  }
+  20%,
+  50% {
+    opacity: 1;
+  }
+  70%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 233, ../contifica/scss/_animations.scss */
+.figcont2-screen1 {
+  animation: figcont2-screen1 18s ease infinite alternate;
+}
+
+@keyframes figcont2-screen1 {
+  0%,
+  15% {
+    opacity: 1;
+  }
+  20%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 247, ../contifica/scss/_animations.scss */
+.figcont2-screen2 {
+  animation: figcont2-screen2 18s ease infinite alternate;
+}
+
+@keyframes figcont2-screen2 {
+  0%,
+  15% {
+    opacity: 0;
+  }
+  20%,
+  35% {
+    opacity: 1;
+  }
+  40%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 265, ../contifica/scss/_animations.scss */
+.fignu2-screen3 {
+  animation: figcont2-screen3 18s ease infinite alternate;
+}
+
+@keyframes figcont2-screen3 {
+  0%,
+  35% {
+    opacity: 0;
+  }
+  40%,
+  55% {
+    opacity: 1;
+  }
+  60%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 283, ../contifica/scss/_animations.scss */
+.figcont2-screen4 {
+  animation: figcont2-screen4 18s ease infinite alternate;
+}
+
+@keyframes figcont2-screen4 {
+  0%,
+  55% {
+    opacity: 0;
+  }
+  60%,
+  75% {
+    opacity: 1;
+  }
+  80%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 301, ../contifica/scss/_animations.scss */
+.figcont2-screen5 {
+  animation: figcont2-screen5 18s ease infinite alternate;
+}
+
+@keyframes figcont2-screen5 {
+  0%,
+  75% {
+    opacity: 0;
+  }
+  80%,
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 315, ../contifica/scss/_animations.scss */
+.fignu2-icon1 {
+  animation: figcont2-icon-move 3s ease 2.5s infinite alternate;
+}
+
+/* line 319, ../contifica/scss/_animations.scss */
+.fignu2-icon2 {
+  opacity: 0;
+}
+
+/* line 322, ../contifica/scss/_animations.scss */
+.fignu2-icon3 {
+  animation: figcont2-icon-move 3s ease 1.5s infinite alternate;
+}
+
+/* line 325, ../contifica/scss/_animations.scss */
+.fignu2-icon4 {
+  opacity: 0;
+}
+
+/* line 328, ../contifica/scss/_animations.scss */
+.fignu2-icon5 {
+  animation: figcont2-icon-move 3s ease 1s infinite alternate;
+}
+
+@keyframes figcont2-icon-move {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(10px, -40px, 0);
+  }
+}
+
+/* line 341, ../contifica/scss/_animations.scss */
+.pulse {
+  width: 12px;
+  height: 12px;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  border-radius: 50%;
+  background-color: #FEFBFF;
+  animation: pulse 5s linear 3s infinite, pulse-move 10s ease 3s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(250, 250, 250, 0.7);
+  }
+  20% {
+    box-shadow: 0 0 0 200px rgba(250, 250, 250, 0);
+  }
+  40%,
+  100% {
+    box-shadow: 0 0 0 500px rgba(250, 250, 250, 0);
+  }
+}
+
+@keyframes pulse-move {
+  0%,
+  20% {
+    top: 50%;
+    left: 65%;
+  }
+  40% {
+    top: 65%;
+    left: 50%;
+  }
+  50%,
+  80% {
+    top: 58%;
+    left: 35%;
+  }
+  100% {
+    top: 20%;
+    left: 45%;
+  }
+}
+
+/* line 392, ../contifica/scss/_animations.scss */
+.figcont3-card-verse {
+  transform-origin: center center;
+  transform-box: fill-box;
+  transform: translate3d(0, -40px, 0);
+  animation: figcont3-card-verse-move 3s ease infinite alternate;
+}
+
+/* line 399, ../contifica/scss/_animations.scss */
+.figcont3-card-front {
+  transform-origin: center center;
+  transform-box: fill-box;
+  transform: translate3d(0, -40px, 0);
+  animation: figcont3-card-front-move 3s ease 1s infinite alternate;
+}
+
+@keyframes figcont3-card-verse-move {
+  0% {
+    transform: translate3d(0, -40px, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(0, 20px, 0) rotate(5deg);
+  }
+}
+
+@keyframes figcont3-card-front-move {
+  0% {
+    transform: translate3d(0, -40px, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(0, 20px, 0) rotate(-5deg);
+  }
+}
+
+/* line 424, ../contifica/scss/_animations.scss */
+.fignu3-shadow {
+  transform-origin: center center;
+  transform-box: fill-box;
+  fill-opacity: 0.15;
+  animation: fignu3-shadow 3s ease 1s infinite alternate;
+}
+
+@keyframes figcont3-shadow {
+  0% {
+    fill-opacity: 0.15;
+  }
+  100% {
+    fill-opacity: 0.4;
+  }
+}
+
+/* line 441, ../contifica/scss/_animations.scss */
+.figcont4-letter-n {
+  animation: figcont4-letter 4s ease infinite alternate;
+}
+
+/* line 444, ../contifica/scss/_animations.scss */
+.figcont4-letter-u {
+  animation: figcont4-letter 4s ease infinite alternate;
+}
+
+@keyframes figcont4-letter {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 400;
+    stroke-opacity: 0;
+  }
+  3% {
+    stroke-width: 4;
+    stroke-dasharray: 1 400;
+    stroke-opacity: 1;
+  }
+  50%,
+  100% {
+    stroke-width: 4;
+    stroke-dasharray: 400 0;
+    stroke-opacity: 1;
+  }
+}
+
+/* line 467, ../contifica/scss/_animations.scss */
+.figcont4 {
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+
+@keyframes appcont_bgapp {
+  0%,
+  20% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  30% {
+    transform: rotate(-5deg);
+  }
+  35% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  45% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  55%,
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* line 501, ../contifica/scss/_animations.scss */
+.figcont5-ball1 {
+  transform: translate3d(-100px, -20px, 0);
+  animation: fignu5-ball1 12s ease 1s infinite alternate;
+}
+
+@keyframes figcont5-ball1 {
+  0%,
+  10% {
+    transform: translate3d(-100px, -20px, 0);
+  }
+  90%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* line 517, ../contifica/scss/_animations.scss */
+.figcont5-ball2 {
+  transform: translate3d(-100px, 150px, 0);
+  animation: fignu5-ball2 12s ease 0.5s infinite alternate;
+}
+
+@keyframes figcont5-ball2 {
+  0%,
+  10% {
+    transform: translate3d(-100px, 150px, 0);
+  }
+  90%,
+  100% {
+    transform: translate3d(-50px, 50px, 0);
+  }
+}
+
+/* line 533, ../contifica/scss/_animations.scss */
+.figcont5-ball3 {
+  transform: translate3d(-200px, 100px, 0);
+  animation: fignu5-ball3 12s ease 1.3s infinite alternate;
+}
+
+@keyframes figcont5-ball3 {
+  0%,
+  10% {
+    transform: translate3d(-200px, 100px, 0);
+  }
+  90%,
+  100% {
+    transform: translate3d(0px, -50px, 0);
+  }
+}
+
+/* line 549, ../contifica/scss/_animations.scss */
+.figcont5-ball4 {
+  transform: translate3d(0px, 0px, 0);
+  animation: fignu5-ball4 12s ease 2s infinite alternate;
+}
+
+@keyframes figcont5-ball4 {
+  0%,
+  10% {
+    transform: translate3d(0px, 0px, 0);
+  }
+  90%,
+  100% {
+    transform: translate3d(100px, 100px, 0);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

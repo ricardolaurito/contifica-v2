@@ -1,0 +1,40 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import "colors";
+@import "layout";
+@import "typography";
+@import "buttons";
+@import "spacing";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  scroll-behavior: smooth;
+
+  background-color: $white-dark;
+
+}
+
+svg, img {
+  display: block;
+  width: 100%;
+}
+.border {
+
+  border: 1px solid red;
+}
+@import "menu";
+@import "swiper";
+@import "icons";
+@import "footer";
+@import "animations";
